@@ -1,6 +1,6 @@
 // Copied and ported from https://github.com/sivy/node-statsd#usage
 
-import { StatsD } from 'node-statsd';
+import StatsD from 'node-statsd';
 
 const client = new StatsD({ mock: true });
 
